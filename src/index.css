@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.grid{
+  display: grid;
+  grid-auto-columns: repeat(auto-fill,minmax(20vw,20%));
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+}
+.NotCompleted{
+  background-color:rgb(246, 144, 178);
+}
+.Completed{
+  background-color: palegreen;
+}
